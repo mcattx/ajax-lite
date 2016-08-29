@@ -1,0 +1,12 @@
+{
+  "name": "ajax",
+  "version": "0.0.1",
+  "description": "a mini ajax lib",
+  "main": "ajax.js",
+  "scripts": {
+  	"dev": "node server/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

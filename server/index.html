@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script src="ajax.js"></script>
+<script type="text/javascript">
+	ajax({
+		url: 'sample.json',
+		method: 'get',
+		dataType: 'json',
+		success: function(rs) {
+			console.log(rs);
+			console.log('success')
+		},
+		error: function(e) {
+			console.log(e)
+			console.log('error')
+		}
+	});
+</script>
+</html>
